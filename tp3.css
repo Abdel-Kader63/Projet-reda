@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand&display=swap');
+
+body
+{
+    height: auto;
+    margin: auto;
+    font-family: "Nunito", Helvetica, sans-serif;
+}
+.menulogo{
+    background-color: #ff9206;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo
+{
+    width: 100px;
+    height: 100px;
+}
+
+nav li{
+    list-style: none;
+    color: #009bd2;
+    display: inline;
+    margin: 0 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #009bd2;
+}
+
+.heroo
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 520px;
+    width: 100%;
+    
+}
+.para
+{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    border: 2px #009bd2 solid;
+    border-radius: 60px;
+    width: 70%;
+    padding: 45px;
+    margin: -93px auto;
+    background-color: grey;
+    opacity: 0.8;
+    color: white;
+    
+    
+}
+.boutono
+{
+    background-color: #009bd2;
+    color: white;
+    border: 0px;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 160px;
+    height: 45px;
+    margin-top: 30px;
+    opacity: none; 
+}
+.letitre
+{
+    position: relative;
+    margin: auto;
+    padding: 85px;
+    text-align: center;
+    font-size: 85px;
+    color: #009bd2;
+}
+.para
+{
+    opacity: none;
+}
